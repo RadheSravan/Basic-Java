@@ -31,9 +31,9 @@ class PrimeFactors
 		}
 		
 		System.out.println("\nThe following are the " + set.size() + " prime factors of " + input + " : " );
-		for(Long factor : set)
+		for(Long factors : set)
 		{
-			System.out.print(factor + " ");
+			System.out.print(factors + " ");
 		}
 		System.out.println("\n");
 	}
